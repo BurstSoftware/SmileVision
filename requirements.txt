@@ -1,6 +1,6 @@
-# requirements.txt for SmileVision Streamlit App
+# requirements.txt for SmileVision Streamlit App on Streamlit Cloud
 
 streamlit==1.36.0       # Web app framework for the UI
 pillow==10.4.0          # Image processing library (PIL fork)
 numpy==1.26.4           # Numerical operations for image manipulation
-opencv-python==4.10.0.84 # OpenCV for basic image processing (cv2)
+opencv-python-headless==4.10.0.84 # Headless OpenCV for server-side image processing
